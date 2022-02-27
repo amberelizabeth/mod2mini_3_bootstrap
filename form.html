@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <div class="page-container">
+        <form id="tasks-form" class=" center">
+            <h1>Task Entry Form</h1>
+            <p>
+                <label for="title">Title</label><br>
+                <input type="text" name="title">
+            </p>
+
+            <p>
+                <label for="description">Description</label><br>
+                <textarea rows="5" cols="50"></textarea>
+            </p>
+            <p>
+                <label for="category">Category</label><br>
+                <input type="text" name="category">
+            </p>
+            <p>
+                <label for="priority">Priority Level</label><br>
+                <select name="priority">
+                    <option>Select and item</option>
+                    <option>Low</option>
+                    <option>Medium</option>
+                    <option>High</option>
+                </select>
+            </p>
+            <p>
+                <label for="progress">Progress Level</label><br>
+                <select name="selProgress">
+                    <option>Select and item</option>
+                    <option>Pending</option>
+                    <option>Started</option>
+                    <option>Completed</option>
+                </select>
+            </p>
+            <p>
+                <a class="button" href="#">Submit</a>
+            </p>
+        </form>
+    </div>  
+</body>
+</html>
